@@ -1,0 +1,39 @@
+{
+  "name": "my-unsplash",
+  "version": "1.0.0",
+  "description": "Unsplash application - MERN + Node + Express + React + CSS + HTML + Mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jyotiad18/my-unsplash.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jyotiad18/my-unsplash/issues"
+  },
+  "homepage": "https://github.com/jyotiad18/my-unsplash#readme",
+  "dependencies": {
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-mongo-sanitize": "^2.0.2",
+    "express-validator": "^6.9.2",
+    "helmet": "^4.4.1",
+    "hpp": "^0.2.3",
+    "mongoose": "^5.11.14",
+    "xss-clean": "^0.1.1"
+  },
+  "devDependencies": {
+    "concurrently": "^5.3.0",
+    "nodemon": "^2.0.7"
+  }
+}

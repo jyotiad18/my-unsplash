@@ -1,0 +1,19 @@
+.app {
+  padding: 32px 99px;
+  display: flex;
+  flex-direction: column;
+  height: 100hv;
+  font-family: Poppins;
+}
+
+.app__footer {
+  display: flex;
+  justify-content: center;
+  color: #b9bdcf;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'Montserrat';
+  text-align: center;
+  margin-top: auto;
+}

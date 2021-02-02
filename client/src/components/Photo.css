@@ -1,0 +1,65 @@
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.photo__content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  border-radius: 16px;
+  justify-content: center;
+}
+
+.photo:nth-child(5n - 3) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+.photo:nth-child(5n) {
+  grid-column: span 1;
+  grid-row: span 2;
+}
+
+
+.photo__hover {
+  display: flex;
+  z-index: 100px;
+  object-fit: cover;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background: rgba(20, 20, 20, 0.45);
+  border-radius: 16px;
+  width: 100%;
+}
+
+.photo__hover > span {
+  display: flex;
+  width: 63px;
+  height: 23px;
+  border: 1px solid #eb5757;
+  box-sizing: border-box;
+  border-radius: 38px;
+  margin-left: auto;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: lowercase;
+  color: #eb5757;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo__hover > h3 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+}
