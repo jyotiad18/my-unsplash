@@ -1,4 +1,4 @@
-const { setResponse }= require("../utils/errorResponse");
+const { setResponse }= require("../utils/ErrorResponse.js");
 const Picture = require("../models/Picture");
 
 // @desc      Get all Pictures

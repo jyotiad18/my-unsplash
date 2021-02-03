@@ -1,4 +1,4 @@
-const { setResponse }= require("../utils/errorResponse");
+const { setResponse }= require("../utils/ErrorResponse.js");
 const User = require('../models/User');
 
 // @desc      Get single user by password
