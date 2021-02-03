@@ -17,3 +17,21 @@
   text-align: center;
   margin-top: auto;
 }
+
+@media (max-width: 1024px) {
+  .app {
+    padding: 32px 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .app {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 648px) {
+  .app {
+    padding: 10px 10px;
+  }
+}

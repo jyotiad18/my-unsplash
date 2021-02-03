@@ -23,3 +23,10 @@
   outline: none;
   border: none;
 }
+
+@media (max-width: 648px) {
+  .search {
+    margin-left: 0px;
+    width: 350px;
+  }
+}
